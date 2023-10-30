@@ -1,0 +1,198 @@
+body {
+    background-color: #6088e7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar section */
+.navbar {
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar a {
+    color: black;
+}
+
+.logo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100px;
+}
+
+.hero {
+    background-image: url(../images/wagon-flowers.jpg);
+    height: 75vh;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    
+}
+
+.hero-color {
+ color: red;
+}
+/* Home-page section */
+.home-page {
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-fluid {
+    padding: 0;
+}
+
+.home-page h1 {
+    font-size: 48px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-image: linear-gradient(135deg, #0059ff 0%, #97bcff 100%);
+}
+.wagon {
+    height: 400px;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+/* About */
+.about-section {
+    background-color: #ced7ff;
+    padding: 50px 50px;
+    text-align: center;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section h2 {
+    font-size: 36px;
+}
+
+.about-section p {
+    font-size: 18px;
+}
+#about-image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+}
+
+.about-image {
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 10px;
+    border-width: 10px;
+    margin: 0 75px;
+}
+
+/* Services  */
+#services-section {
+    background-color: #ffcf60;
+    padding: 60px 50px;
+    text-align: center;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#services-section h2 {
+    font-size: 40px;
+    color: #333;
+}
+
+#services-section p {
+    font-size: 20px;
+    color: #555;
+}
+#services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.services-images {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-width: 10px;
+    margin:  75px;
+}
+
+/* Contact */
+#contact-section {
+    background-color: #a5d8f3;
+    padding: 70px 0;
+    text-align: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-section h2 {
+    font-size: 38px;
+    color: #333;
+}
+
+#contact-section p {
+    font-size: 18px;
+    color: #555;
+}
+
+
+
+
+
+/* Footer */
+.footer-background {
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    margin-top: auto;
+    height: 12vh;
+}
+
+.container {
+    text-align: center;
+    transform: translateY(30px);
+}
+
+.list-unstyled {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-unstyled li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.copy {
+    display: block;
+    margin-top: 10px;
+}
